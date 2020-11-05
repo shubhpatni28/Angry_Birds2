@@ -23,6 +23,8 @@ function setup(){
     pig1 = new Pig(810, 350);
     log1 = new Log(810,260,300, PI/2);
 
+    plat = new Ground(150,300,300,180 )
+
     box3 = new Box(700,240,70,70);
     box4 = new Box(920,240,70,70);
     pig3 = new Pig(810, 220);
@@ -48,6 +50,8 @@ function draw(){
     ground.display();
     pig1.display();
     log1.display();
+
+    plat.display();
 
     box3.display();
     box4.display();
